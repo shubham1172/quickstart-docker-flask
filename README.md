@@ -6,7 +6,7 @@ This is a starter kit for creating a flask app with Docker.
 	- `git clone https://github.com/shubham1172/quickstart-docker-flask`
 	-  `cd quickstarter-docker-flask`
 - Build the image with Docker: `docker build -t helloworld .`
-- Run it: `docker run -p 5000:8000 helloworld`
+- Run it: `docker run -p 80:8000 helloworld`
 
 ## Cleaning up
 * Delete the container
